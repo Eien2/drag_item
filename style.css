@@ -31,3 +31,20 @@ body {
   background: rgba(0, 100, 200, 0.75);
   color: white;
 }
+
+.back-btn {
+  color: black;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 10;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.back-btn:hover {
+  color: rgba(50, 50, 55, 0.25);
+}

@@ -1,6 +1,7 @@
 function dragScript() {
   document.body.innerHTML = `
     <div class="drag">Drag Me</div>
+    <button class="back-btn">Back</button>
   `;
   const dragEl = document.querySelector(".drag"); 
   let isDrag = false;
