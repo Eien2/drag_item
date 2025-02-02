@@ -1,0 +1,33 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.add-obj-btn {
+  font-size: 2rem;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background: rgb(100, 230, 0);
+  transition: 0.3s ease-in;
+}
+
+.add-obj-btn:hover {
+  background: rgba(100, 200, 0, 0.75);
+}
+
+.drag {
+  font-size: 2rem;
+  white-space: nowrap;
+  padding: 50px;
+  background: rgba(0, 100, 200, 0.75);
+  color: white;
+}
